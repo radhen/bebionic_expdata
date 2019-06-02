@@ -1,0 +1,9 @@
+ g = [zeros(length(unnamed), 1); ones(length(unnamed1), 1); 2*ones(length(unnamed2), 1); 3*ones(length(unnamed3), 1); 4*ones(length(unnamed4), 1); 5*ones(length(unnamed5), 1); 6*ones(length(unnamed6), 1); 7*ones(length(unnamed7), 1); 8*ones(length(unnamed8), 1); 9*ones(length(unnamed9), 1); 10*ones(length(unnamed10), 1); 11*ones(length(unnamed11), 1)];
+
+x = [unnamed; unnamed1; unnamed2; unnamed3; unnamed4; unnamed5; unnamed6; unnamed7; unnamed8; unnamed9; unnamed10; unnamed11]
+
+boxplot(x,g)
+
+g = [zeros(length(on_10), 1); ones(length(off_10), 1); 2*ones(length(on_20), 1); 3*ones(length(off_20), 1); 4*ones(length(on_30), 1); 5*ones(length(off_30), 1); 6*ones(length(on_40), 1); 7*ones(length(off_40), 1); 8*ones(length(on_50), 1); 9*ones(length(off_50), 1);10*ones(length(on_70), 1);11*ones(length(off_70), 1);12*ones(length(on_100), 1);13*ones(length(off_100), 1);14*ones(length(on_200), 1);15*ones(length(off_200), 1)]
+
+x = [on_10; off_10; on_20; off_20; on_30; off_30; on_40; off_40; on_50; off_50; on_70; off_70; on_100; off_100; on_200; off_200];
